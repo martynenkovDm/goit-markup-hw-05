@@ -573,13 +573,14 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button:is(:hover, :focus) .modal-soc-icon {
-  fill: var(--main-heading-color);
-}
 .modal-soc-icon {
   fill: var(--modal-btn-color);
 }
-
+.modal-button:is(:hover, :focus) .modal-soc-icon {
+  fill: var(--main-heading-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .is-hidden {
   opacity: 0;
   pointer-events: none;
