@@ -393,6 +393,8 @@ body {
 .customer-soc-link:is(:hover, :focus) {
   border-color: var(--focus-nav-color);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-soc-icon {
   fill: #8e8f99;
