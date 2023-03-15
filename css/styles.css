@@ -110,6 +110,8 @@ body {
   cursor: pointer;
   border: none;
   padding: 16px 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.hero-btn {
   border-radius: 4px;
@@ -131,8 +133,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   outline: none;
   border-color: var(--primary-button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /** Logo */
@@ -144,7 +144,6 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   display: block;
 }
 .logotype-studio {
@@ -185,17 +184,14 @@ body {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover {
   color: var(--primary-button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:focus {
   color: var(--accent-color);
-  box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.05);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link.current {
   color: var(--focus-nav-color);
@@ -209,14 +205,9 @@ body {
 }
 .address-list .header-link:hover {
   color: var(--primary-button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list .header-link:focus {
   color: var(--accent-color);
-  box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.05);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current::after {
   content: "";
@@ -330,7 +321,6 @@ body {
 }
 .team-item {
   background-color: var(--main-heading-color);
-
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -353,6 +343,8 @@ body {
   justify-content: center;
   border-radius: 50%;
   background-color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-icon {
   fill: #ffffff;
@@ -360,8 +352,6 @@ body {
 .team-soc-link:is(:hover, :focus) {
   background-color: var(--primary-button-color);
   outline: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*
 .team-list li:not(:last-child) {
@@ -388,22 +378,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-soc-link:is(:hover, :focus) {
   border-color: var(--focus-nav-color);
   outline: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-soc-icon {
   fill: #8e8f99;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-soc-link:is(:hover, :focus) .customer-soc-icon {
   fill: var(--focus-nav-color);
   outline: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /** FILTER */
 .filter-section {
@@ -414,6 +404,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+.filter-item {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter {
   display: flex;
@@ -426,8 +420,6 @@ body {
 .filter-item:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*
 .filter-buttons li:not(:last-child) {
@@ -510,6 +502,8 @@ body {
   justify-content: center;
   border-radius: 50%;
   background-color: var(--footer-media-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-icon {
   fill: var(--logotype-part-color);
@@ -517,8 +511,6 @@ body {
 .footer-soc-link:is(:hover, :focus) {
   background-color: var(--success-color);
   outline: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-media {
   margin-left: 120px;
@@ -564,22 +556,22 @@ body {
   align-items: center;
   cursor: pointer;
   margin-left: auto;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:is(:hover, :focus) {
   background-color: var(--primary-button-color);
   outline: none;
   border: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-soc-icon {
   fill: var(--modal-btn-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:is(:hover, :focus) .modal-soc-icon {
   fill: var(--main-heading-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
